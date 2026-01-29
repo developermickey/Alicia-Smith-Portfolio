@@ -505,7 +505,7 @@ header .menu .menu-btn {
     .contact-section {
         min-height: 100vh;
         flex-direction: column;
-        padding-top: 50px;
+        padding-top: 150px;
     }
     
         .contact-section .top,
@@ -517,3 +517,189 @@ header .menu .menu-btn {
 
 
  /* Contact Section Css End */
+
+
+ /* FAQ Section css */
+
+ .faq-section {
+     width: 100%;
+     min-height: 100vh;
+     display: flex;
+     align-items: flex-start;
+     justify-content: flex-start;
+     gap: 30px;
+     flex-direction: column;
+     padding-top: 120px;
+     padding-bottom: 120px;
+
+ }
+
+
+ .faq-section .top h2 {
+     font-size: 52px;
+     text-transform: capitalize;
+     letter-spacing: 3px;
+     font-weight: 500;
+     line-height: 1;
+     color: #FAFAFA;
+     margin-bottom: 20px;
+ }
+
+  .faq-section .top p {
+    max-width: 576px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -2%;
+    margin-bottom: 30px;
+  }
+
+ .faq-section .bottom {
+     margin-top: 30px;
+     display: flex;
+     gap: 30px;
+ }
+
+ .faq-section .bottom .faq-cards {
+     display: flex;
+     flex-direction: column;
+     gap: 50px;
+     width: 50%;
+ }
+
+
+ .faq-section .bottom .faq-cards .card {
+     display: flex;
+     align-items: flex-start;
+     justify-content: space-between;
+     flex-direction: column;
+     gap: 10px;
+ }
+
+  .faq-section .bottom .faq-cards .card h3 {
+      font-size: 24px;
+      line-height: 1;
+      font-weight: 300;
+  }
+ .faq-section .bottom .faq-cards .card p {
+     font-size: 16px;
+     line-height: 1.8;
+     font-weight: 300;
+ }
+
+ .faq-section .bottom .faq-cards .card .user-detail {
+     display: flex;
+     align-items: center;
+     gap: 20px;
+ }
+
+ .faq-section .bottom .faq-cards .card .user-detail .user-info h5 {
+     font-size: 20px;
+     font-weight: 500;
+ }
+
+ .faq-section .bottom .faq-cards .card .user-detail .user-info p {
+     font-size: 15px;
+     font-weight: 400;
+ }
+
+ @media (max-width: 768px) {
+     .faq-section {
+         min-height: 100vh;
+     }
+         .faq-section .bottom {
+            flex-direction: column;
+         }
+
+     .faq-section .bottom .faq-cards {
+         flex-direction: column;
+         gap: 40px;
+         width: 100%;
+     }
+ }
+
+
+ /* Footer Section CSS */
+
+ .footer-section {
+    width: 100%;
+    height: 250px;
+ }
+
+ .footer-section .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #262626;
+    padding-bottom: 40px;
+ }
+
+ .footer-section .top .footer-logo {
+    max-width: 200px;
+ }
+
+
+ .footer-section .footer-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+
+
+ .footer-section .footer-menu a{
+     color: #fff;
+     text-decoration: none;
+     font-size: 18px;
+ }
+
+
+  .footer-section .social-icon  {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+  }
+
+  .footer-section .social-icon i{
+      font-size: 24px;
+  }
+
+
+  .footer-section .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+  }
+
+  .footer-section .bottom .policy-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+
+  .footer-section .bottom a {
+    color: #FAFAFA;
+    text-decoration: none;
+  }
+
+
+  @media (max-width: 768px) {
+    .footer-section .top {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-section .top .footer-menu a {
+        font-size: 14px;
+    }
+
+
+        .footer-section .bottom {
+            flex-direction: column;
+            gap: 30px;
+        }
+    
+        .footer-section .bottom .policy-menu a {
+            font-size: 14px;
+        }
+  }
+ /* Footer Section CSS End  */
